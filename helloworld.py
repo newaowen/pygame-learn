@@ -1,5 +1,6 @@
 #!/usr/bin/env python
 # -*- coding: UTF-8 -*-
+#fps比较demo
 
 import pygame
 from pygame.locals import *
@@ -11,10 +12,10 @@ mouse_image_filename = 'res/mouse.png'
 pygame.init()
 
 screen = pygame.display.set_mode((640, 480), 0, 32)
-pygame.display.set_caption("hello, world!")
+pygame.display.set_caption("hello world")
 
 background = pygame.image.load(background_image_filename).convert()
-mouse_cursor = pygame.image.load(mouse_image_filename).convert_alpha()
+mouse_cursor = pygame.image.load('res/mouse.png').convert_alpha()
 
 while True:
     for event in pygame.event.get():

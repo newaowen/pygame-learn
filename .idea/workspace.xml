@@ -2,19 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9205d2fa-f39c-4dd0-bbaf-6604a0d55351" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/pygame-learn.iml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/background.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/mouse.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/encodings.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/other.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/scopes/scope_settings.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/testrunner.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/helloworld.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mouse_move.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/color.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fps_compare.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/move.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/set_pixel.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/res/background.png" afterPath="$PROJECT_DIR$/res/background.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/helloworld.py" afterPath="$PROJECT_DIR$/helloworld.py" />
     </list>
     <ignored path="pygame-learn.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -34,12 +28,54 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="helloworld.py" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="helloworld.py" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/helloworld.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="12" column="51" selection-start="266" selection-end="266" vertical-scroll-proportion="0.5427136">
+            <state line="17" column="43" selection-start="432" selection-end="432" vertical-scroll-proportion="0.0">
+              <folding>
+                <element signature="e#58#71#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="move.py" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/move.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="27" column="26" selection-start="0" selection-end="1224" vertical-scroll-proportion="0.0">
               <folding>
                 <element signature="e#47#60#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="color.py" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/color.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="23" column="10" selection-start="455" selection-end="455" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="set_pixel.py" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/set_pixel.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="8" column="13" selection-start="151" selection-end="151" vertical-scroll-proportion="0.0">
+              <folding>
+                <element signature="e#47#60#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="fps_compare.py" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/fps_compare.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="41" column="17" selection-start="848" selection-end="848" vertical-scroll-proportion="0.36783734">
+              <folding>
+                <element signature="e#58#71#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -57,10 +93,8 @@
       <file leaf-file-name="mouse_move.py" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/mouse_move.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="2" column="0" selection-start="46" selection-end="46" vertical-scroll-proportion="0.0">
-              <folding>
-                <element signature="e#47#60#0" expanded="true" />
-              </folding>
+            <state line="5" column="16" selection-start="0" selection-end="793" vertical-scroll-proportion="0.0">
+              <folding />
             </state>
           </provider>
         </entry>
@@ -88,15 +122,19 @@
     <option name="changedFiles">
       <list>
         <option value="$PROJECT_DIR$/mouse_move.py" />
+        <option value="$PROJECT_DIR$/move.py" />
+        <option value="$PROJECT_DIR$/color.py" />
+        <option value="$PROJECT_DIR$/set_pixel.py" />
         <option value="$PROJECT_DIR$/helloworld.py" />
+        <option value="$PROJECT_DIR$/fps_compare.py" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="119" />
-    <option name="y" value="35" />
-    <option name="width" value="1038" />
-    <option name="height" value="733" />
+    <option name="x" value="-2" />
+    <option name="y" value="32" />
+    <option name="width" value="1370" />
+    <option name="height" value="740" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
     <OptionsSetting value="true" id="Add" />
@@ -181,10 +219,65 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
       <recent name="$PROJECT_DIR$/res" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.helloworld">
+  <component name="RunManager" selected="Python.fps_compare">
+    <configuration default="false" name="move" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="/usr/bin/python2.7" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <module name="pygame-learn" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/move.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="MULTIPROCESS" value="true" />
+      <RunnerSettings RunnerId="PythonRunner" />
+      <ConfigurationWrapper RunnerId="PythonRunner" />
+      <method />
+    </configuration>
+    <configuration default="false" name="set_pixel" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="/usr/bin/python2.7" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <module name="pygame-learn" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/set_pixel.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="MULTIPROCESS" value="true" />
+      <RunnerSettings RunnerId="PythonRunner" />
+      <ConfigurationWrapper RunnerId="PythonRunner" />
+      <method />
+    </configuration>
+    <configuration default="false" name="fps_compare" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="/usr/bin/python2.7" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <module name="pygame-learn" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/fps_compare.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="MULTIPROCESS" value="true" />
+      <RunnerSettings RunnerId="PythonRunner" />
+      <ConfigurationWrapper RunnerId="PythonRunner" />
+      <method />
+    </configuration>
     <configuration default="true" type="tests" factoryName="Nosetests">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -275,10 +368,20 @@
       <ConfigurationWrapper RunnerId="PythonRunner" />
       <method />
     </configuration>
-    <list size="2">
+    <list size="5">
       <item index="0" class="java.lang.String" itemvalue="Python.helloworld" />
       <item index="1" class="java.lang.String" itemvalue="Python.mouse_move" />
+      <item index="2" class="java.lang.String" itemvalue="Python.move" />
+      <item index="3" class="java.lang.String" itemvalue="Python.set_pixel" />
+      <item index="4" class="java.lang.String" itemvalue="Python.fps_compare" />
     </list>
+    <recent_temporary>
+      <list size="3">
+        <item index="0" class="java.lang.String" itemvalue="Python.fps_compare" />
+        <item index="1" class="java.lang.String" itemvalue="Python.set_pixel" />
+        <item index="2" class="java.lang.String" itemvalue="Python.move" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="ShelveChangesManager" show_recycled="false" />
   <component name="SvnConfiguration" maxAnnotateRevisions="500" myUseAcceleration="nothing" myAutoUpdateAfterCommit="false" cleanupOnStartRun="false">
@@ -307,18 +410,18 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="119" y="35" width="1038" height="733" extended-state="0" />
-    <editor active="true" />
+    <frame x="-2" y="32" width="1370" height="740" extended-state="6" />
+    <editor active="false" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.201417" sideWeight="0.72602737" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.15075758" sideWeight="0.9593909" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2739726" sideWeight="0.99390864" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.040609136" sideWeight="0.99390864" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -391,15 +494,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/mouse_move.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="2" column="0" selection-start="46" selection-end="46" vertical-scroll-proportion="0.0">
-          <folding>
-            <element signature="e#47#60#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$USER_HOME$/.PyCharm20/system/python_stubs/-1247972723/pygame/surface.py">
       <provider selected="true" editor-type-id="text-editor">
         <state line="33" column="43" selection-start="1188" selection-end="1188" vertical-scroll-proportion="0.0">
@@ -407,11 +501,57 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/helloworld.py">
+    <entry file="file://$PROJECT_DIR$/mouse_move.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="12" column="51" selection-start="266" selection-end="266" vertical-scroll-proportion="0.5427136">
+        <state line="5" column="16" selection-start="0" selection-end="793" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/color.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="23" column="10" selection-start="455" selection-end="455" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/move.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="27" column="26" selection-start="0" selection-end="1224" vertical-scroll-proportion="0.0">
           <folding>
             <element signature="e#47#60#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/set_pixel.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="8" column="13" selection-start="151" selection-end="151" vertical-scroll-proportion="0.0">
+          <folding>
+            <element signature="e#47#60#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/helloworld.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="17" column="43" selection-start="432" selection-end="432" vertical-scroll-proportion="0.0">
+          <folding>
+            <element signature="e#58#71#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/res/background.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/fps_compare.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="41" column="17" selection-start="848" selection-end="848" vertical-scroll-proportion="0.36783734">
+          <folding>
+            <element signature="e#58#71#0" expanded="true" />
           </folding>
         </state>
       </provider>
