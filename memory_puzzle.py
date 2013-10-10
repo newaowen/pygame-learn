@@ -6,6 +6,8 @@ __author__ = 'zhanqu'
 # By Al Sweigart al@inventwithpython.com
 # http://inventwithpython.com/pygame
 # Released under a "Simplified BSD" license
+#一个翻盒子，猜盒子配对的小游戏
+#没有使用图片元素，盒子内容是基本图元，运行时绘制的
 
 import random, pygame, sys
 from pygame.locals import *
